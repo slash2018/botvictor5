@@ -105,13 +105,13 @@ const bacotrandom = JSON.parse(fs.readFileSync('./src/bacot.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const user = JSON.parse(fs.readFileSync('./src/user.json'))
 ban = []
-cr = '*EREN BOT*'
-vz = '*Terima Kasih Sudah Daftar Di EREN BOT*'
+cr = '*𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡*'
+vz = '*Obrigado por se registrar no 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡*'
 const vcard = 'BEGIN:VCARD\n' //
             + 'VERSION:3.0\n' //
             + 'FN: ARIFI RAZZAQ (REAL ACCOUNT)\n' //
-            + 'ORG:Creator EREN;\n' //
-            + 'TEL;type=CELL;type=VOICE;waid=6895622955538:+6895622955538\n' //
+            + 'ORG:𝓐𝓓𝓜 𝓥𝓘𝓒𝓣𝓞𝓡;\n' //
+            + 'TEL;type=CELL;type=VOICE;waid=5511987529572:+551198759572\n' //
             + 'END:VCARD'
 prefix = '/'
 blocked = []
@@ -207,7 +207,7 @@ function kyun(seconds){
                 if (!check) {
                     return
                 } else {
-                    reply( '*「 GROUP LINK DETECTOR 」*\nKamu mengirimkan link grup chat, maaf kamu di kick dari grup :(').then(() => {
+                    reply( '*「 𝐃𝐄𝐓𝐄𝐂𝐓𝐎𝐑 𝐃𝐄 𝐋𝐈𝐍𝐊𝐒 」*\n*VAI MADNAR LINK NO CU DA SUA MÃE* :(').then(() => {
                         client.groupRemove(from, groupId)
                     })
                 }
@@ -225,7 +225,7 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Jangan Lupa Subscribe Arifi Razzaq OFFICIAL'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Não se esqueça de se Inscrever'))
 	})
 	client.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))

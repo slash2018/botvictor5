@@ -315,11 +315,11 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DARK BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
 					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Dark. Registre-se para fazer amizade com o bot Dark por meio, \n\nCommand : ${prefixbotbot}daftar nama|idade\nExemplo : ${prefixbotbot}daftar Dark|17\n\n──「 Dark BOT 」──`,
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Dark. Registre-se para fazer amizade com o bot Dark por meio, \n\nCommand : ${prefixbotbot}daftar nama|idade\nExemplo : ${prefixbotbot}daftar Dark|17\n\n──「 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
@@ -2256,7 +2256,8 @@ break
 					anu = awat fetchJson(`https://arugaz.herokuapp.com/api/howgay`, {method: 'get'})
 					reply('De acordo com o percentual gay:\n\n'+anu.desc+anu.persen)
 					break
-			  case 'next':               
+			  case 'next':
+               
                 if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO KAK')
                 awat reply('Ache um companheiro >_<')
                 awat reply(`wa.me/${anug}`)
@@ -2689,7 +2690,7 @@ break
                    break
 					case 'totaluser':
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO DARK BOT 👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL DE USUÁRIOO 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡 👑* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
@@ -3571,7 +3572,7 @@ break
 					break
 					case 'ichiadmin':
 					tod = awat getbufferer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					dark.sendMess(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT DARK ✨* 」\n*│+ wa.me/5522996215481*╰──────*「 *DARK* 」*────*\n\n*_SE QUER SER ADMIN DO BOT DARK_*\n*_Tipo /iklan_*' })
+					dark.sendMess(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT 𝓥𝓘𝓒𝓣𝓞𝓡 ✨* 」\n*│+ wa.me/5522996215481*╰──────*「 *𝓥𝓘𝓒𝓣𝓞𝓡* 」*────*\n\n*_SE QUER SER ADMIN DO BOT 𝓥𝓘𝓒𝓣𝓞𝓡_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					dark.sendMess(from, iklan(prefixbotbot) , text, { quoted: mek })
@@ -3580,7 +3581,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = awat getbufferer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					dark.sendMess(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/5522996215481*╰──────*「 * DARK* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO DARK BOT_*\n*_Ketik #daftarvip*' })
+					dark.sendMess(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/5522996215481*╰──────*「 * 𝓥𝓘𝓒𝓣𝓞𝓡* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
@@ -3711,7 +3712,7 @@ break
 				case 'canal':
 					memeindodododododododododododododododo = awat kagApi.memeindododododododododododododododododo()
 					bufferer = awat getbufferer(`https://imgur.com/gallery/xuTCBPO`)
-					dark.sendMess(from, bufferer, image, {quoted: mek, caption: '️*canal do dark:*\n\n https://bit.ly/3omUNCg'})
+					dark.sendMess(from, bufferer, image, {quoted: mek, caption: '️*canal do 𝓥𝓘𝓒𝓣𝓞𝓡:*\n\n https://bit.ly/3omUNCg'})
 					break
 				case 'nsfwloli1':
 					memeindodododododododododododododododo = awat kagApi.memeindododododododododododododododododo()

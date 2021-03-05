@@ -1,9 +1,9 @@
 const animmenu = () => { 
 	return `           
 ──────────────────
-*COMANDOS DE ANIME*
+*𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐀𝐍𝐈𝐌𝐄*
 ──────────────────
-    『 TRAILERS 』
+    『 𝐓𝐑𝐀𝐈𝐋𝐄𝐑𝐒 』
 ──────────────────
 𝘋𝘐𝘎𝘐𝘛𝘌 𝘖 𝘊𝘖𝘔𝘈𝘕𝘋𝘖 𝘊𝘖𝘔 𝘖 𝘓𝘐𝘕𝘒 
 
@@ -26,7 +26,7 @@ ${prefix}n https://youtu.be/6W1GnrUcgXQ
 ${prefix}n https://youtu.be/y-UyPgs3hyQ
 
 ──────────────────
-    『 IMAGENS 』
+    『 𝐈𝐌𝐀𝐆𝐄𝐍𝐒 』
 ──────────────────
 
 *${prefix}rize*
@@ -39,7 +39,7 @@ ${prefix}n https://youtu.be/y-UyPgs3hyQ
 
 
 ──────────────────
-    『 DARKBOT 』
+    『 *𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡* 』
 ──────────────────`
 }
 exports.animmenu = animmenu

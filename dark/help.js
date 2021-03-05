@@ -1,16 +1,17 @@
 const help = () => { 
 	return `
-╔══✪〘 INFO 〙✪══
+╔══✪〘 *𝐈𝐍𝐅𝐎* 〙✪══
 ║
 ╠OLA 
 ║
-╠➥ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓
-╠➥ *3.2*
-╠➥ 𝐃𝐎𝐍𝐎:  ⃬⃗𝐷𝐴𝑅𝐾⃖  ☔
-╠➥ *wa.me/+5522996215481*
-╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
+╠➥ 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡
+╠➥ *𝟑.𝟏𝐚*
+╠➥ 𝐃𝐎𝐍𝐎:  ⃬⃗𝓥𝓘𝓒𝓣𝓞𝓡
+╠➥ *wa.me/+5511987529572*
+╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: *ON*
+╠➥ 𝐁𝐀𝐒𝐄:    ⃬⃗𝐷𝐴𝑅𝐾⃖  ☔
 ║
-╠══✪〘 NOVIDADES 〙✪══
+╠══✪〘 *𝐍𝐎𝐕𝐎𝐒* 〙✪══
 ║
 ║1 *${prefix}msc*
 ║2 *${prefix}Comandos de voz*
@@ -24,7 +25,7 @@ const help = () => {
 ║9 *${prefix}spamcall*
 ║10 *${prefix}play (nome da msc)*
 ║
-╠══✪〘 MENU 〙✪══
+╠══✪〘 *𝐌𝐄𝐍𝐔* 〙✪══
 ║
 ║11 *${prefix}figu*
 ║12 *${prefix}toimg*
@@ -38,7 +39,7 @@ const help = () => {
 ║20 *${prefix}wait [na legenda]*
 ║21 *${prefix}setprefix*
 ║
-╠══✪〘 OUTROS 〙✪══
+╠══✪〘 *𝐎𝐔𝐓𝐑𝐎𝐒* 〙✪══
 ║
 ║22 *${prefix}linkgp*
 ║23 *${prefix}simih [1/0]*
@@ -73,7 +74,7 @@ const help = () => {
 ║52 *${prefix}marcar2*
 ║53 *${prefix}marcar3*
 ║
-╠══✪〘 IMAGENS 〙✪══
+╠══✪〘 *𝐈𝐌𝐀𝐆𝐄𝐍𝐒* 〙✪══
 ║
 ║54 *${prefix}loli* [off]
 ║55 *${prefix}loli1*
@@ -98,19 +99,19 @@ const help = () => {
 ║74 *${prefix}nsfwloli1*
 ║75 *${prefix}reislin*
 ║
-╠══✪〘 INTELIGÊNCIA IA 〙✪══
+╠══✪〘 *𝗜𝗡𝗧𝗘𝗟𝗜𝗚𝗘𝗡𝗖𝗜𝗔 𝗜𝗔* 〙✪══
 ║
 ║76 *${prefix}simih 1 (para ativar)*
 ║77 *${prefix}simih 0 (para desativar)*
 ║ *${prefix}simi (sua mensagem)*
 ║
-╠══✪〘 EM TESTE 〙✪══
+╠══✪〘 *𝐄𝐌 𝐏𝐑𝐎𝐃𝐔𝐂𝐀𝐎* 〙✪══
 ║
 ║78 *${prefix}*
 ║79 *${prefix}*
 ║80 *${prefix}*
 ║
-╠══✪〘 PREMIUM 〙✪══
+╠══✪〘 *𝐏𝐑𝐄𝐌𝐈𝐔𝐌* 〙✪══
 ║
 ║81 *${prefix}dado*
 ║82 *${prefix}cekvip*
@@ -127,7 +128,7 @@ const help = () => {
 ║93 *${prefix}destrava*
 ║94 *${prefix}gpessoa*
 ║
-╠══✪〘 GRUPO 〙✪══
+╠══✪〘 *𝐆𝐑𝐔𝐏𝐎* 〙✪══
 ║
 ║95 *${prefix}banir*
 ║96 *${prefix}leveling [on/off]*
@@ -149,7 +150,7 @@ const help = () => {
 ║112 *${prefix}setdesc*
 ║113 *${prefix}bug [sua mensagem]*
 ║
-╠══✪〘 ESPECIFICO DO BOT 〙✪══
+╠══✪〘 *𝐄𝐒𝐏𝐄𝐂𝐈𝐅𝐈𝐂𝐎 𝐃𝐎 𝐁𝐎𝐓* 〙✪══
 ║
 ║114 *${prefix}bug [sua mensagem]*
 ║115 *${prefix}clonar [@]*
@@ -164,7 +165,7 @@ const help = () => {
 ║124 *${prefix}desligar (so para o dono)*
 ║125 *${prefix}timer*
 ║
-╠══✪〘 MAIS ALGUNS 〙✪══
+╠══✪〘 *𝐌𝐀𝐈𝐒 𝐀𝐋𝐆𝐔𝐍𝐒* 〙✪══
 ║
 ║126 *${prefix}neko*
 ║127 *${prefix}ttp [texto]*
@@ -187,7 +188,7 @@ const help = () => {
 ║144 *${prefix}pronomeneu [texto]*
 ║144 *${prefix}hobby*
 ║
-╠══✪〘 COMANDOS DE VOZ 〙✪══
+╠══✪〘 *𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐕𝐎𝐙* 〙✪══
 ║
 ║145 *${prefix}ola*
 ║146 *${prefix}bv*
@@ -199,7 +200,7 @@ const help = () => {
 ║152 *${prefix}beat1*
 ║153 *${prefix}glub*
 ║
-╠══✪〘 OUTROS /2 〙✪══
+╠══✪〘 *𝐎𝐔𝐓𝐑𝐎𝐒 /𝟐* 〙✪══
 ║
 ║154 *${prefix}antilink [1/0]*
 ║155 *${prefix}brainly [pergunta]*
@@ -208,10 +209,10 @@ const help = () => {
 ║158 *${prefix}meme*
 ║159 *${prefix}musicas*
 ║
-╠══✪〘 YT MUSIC 〙✪══
+╠══✪〘 *𝐘𝐓 𝐌𝐔𝐒𝐈𝐂* 〙✪══
 ║
 ╠══NOTA »
-║menu completo em .msc
+║ *menu completo em .msc*
 ╠════════════════════
 ║
 ║160 *${prefix}hylander*
@@ -226,7 +227,7 @@ const help = () => {
 ║169 *${prefix}cmflamengo*
 ║
 ║
-╠══✪〘 HACKER MENU 〙✪══
+╠══✪〘 *𝐇𝐀𝐂𝐊𝐄𝐑 𝐌𝐄𝐍𝐔* 〙✪══
 ║
 ║170 *${prefix}fbcheker*
 ║171 *${prefix}hackfb*
@@ -236,7 +237,7 @@ const help = () => {
 ║175 *${prefix}socialfishv2*
 ║176 *${prefix}tool*
 ║
-╠══✪〘 STICKER MENU 〙✪══
+╠══✪〘 *𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐌𝐄𝐍𝐔* 〙✪══
 ║
 ║177 *${prefix}animecry* 
 ║178 *${prefix}hubgif*
@@ -246,10 +247,10 @@ const help = () => {
 ║182 *${prefix}nekofig* 🔞
 ║183 *${prefix}lolifig*
 ║
-╠══✪〘 INTERATIVOS 〙✪══
+╠══✪〘 *𝐈𝐍𝐓𝐄𝐑𝐀𝐓𝐈𝐕𝐎𝐒* 〙✪══
 ║
 ╠══NOTA »
-║Mandar a msg sem o prefixo
+║ *Mandar a msg sem o prefixo*
 ╠════════════════════
 ║
 ║184 *bah*
@@ -260,12 +261,12 @@ const help = () => {
 ║189 *digita*
 ║190 *machista*
 ║
-╠══✪〘 OUTROS /3 〙✪══
+╠══✪〘 *𝐎𝐔𝐓𝐑𝐎𝐒 /3* 〙✪══
 ║
 ║191 *${prefix}atris* 🔞
 ║192 *${prefix}animemenu*
 ║
-╠══✪〘 CMDS DE VÍDEO 〙✪══
+╠══✪〘 *𝐂𝐌𝐃𝐒 𝐃𝐄 𝐕𝐈́𝐃𝐄𝐎* 〙✪══
 ║
 ╠══EDITS »
 ║_*Say Cat*_
@@ -299,16 +300,15 @@ const help = () => {
 ║
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
-║ *NOME: 𝐷𝐴𝑅𝐾⃖  ☔*
-║ *INSTA: th.darkys*
-║ *WPP: wa.me/+5521997123716*
-║ *YOUTUBE: https://bit.ly/3qAjeNz*
-║
-║  *"Peita ou respeita 🐊🚩*
-║  *"kibadores, vão se fuder"*
+║ *NOME: 𝓐𝓓𝓜 𝓥𝓘𝓒𝓣𝓞𝓡*
+║ *INSTA: @gamerlagado*
+║ *WPP: wa.me/+5511987529572*
 ║
 ║
-╚═〘 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 〙`
+║ *AGRADECIMENTO AO: 𝐷𝐴𝑅𝐾⃖  ☔*
+║
+║
+╚═〘 𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡 〙`
 }
 
 exports.help = help
